@@ -177,6 +177,52 @@ motivations de l'agresseur.
 ![Demarche intrusion](./img/demarche_intrusion.jpg)
 
 ## chapitre 4 - Collecte d'informations
+Il existe 3 moyens pour la collecte d'information
+### Recherches sur le web
+Informations susceptibles d'être trouvées (réseaux sociaux) :
+- Contacts
+- Numéros de téléphones, emails, adresses postales
+- Documents publiquement accessibles
+- Il peut même être utile de trouver les restaurants/cafétérias proches de l’entreprise pour pouvoir
+espionner les conversations des employés
+- Vulnérabilités, messages d'erreurs trop verbeux, fichiers de logs (FW, VPNs, ...)
+- Fichiers de configuration contenant des mots de passe
+- Documents / répertoires sensibles
+
+créer des requête complexes pour trouver des vulnérabilités ou des informations sensibles (Google hacking) :
+- Recherche de pages appartenant à un site Internet :
+    - site:heig-vd.ch
+- Recherche de pages pointant sur un site Internet :
+    - link:heig-vd.ch
+- Recherche de fichiers sur la Sécurité au format PDF :
+    - filetype:pdf sécurité
+- Recherche de serveurs web autorisant le directory listing :
+    - site:heig-vd.ch in9tle:"index of /"
+- Autres commandes comme inurl, in9tle, "config", "setup"
+- Page mise en cache...
+Outils : Gooscan, Athena, SiteDigger
+### Questionnement de services Internet
+Whois (« qui est ? ») (`whois [ip or domain]`)
+- Service de recherche permeLant d'obtenir des informations sur
+- des adresses IP
+- des noms de domaine
+- Interrogation des registres Internet :
+- les Registres Internet régionaux (RIR)
+- les registres de noms de domaine, Network Information Center (NIC), (.com, .ch, ...)
+- Informations à usages variés,
+- coordination entre ingénieurs réseaux pour résoudre un problème technique,
+- la recherche du titulaire d'un nom de domaine par une société qui souhaiterait l'obtenir,
+
+DNS (`nslookup` ou `host` ou `dig`) :
+- Interrogation direct au(x) serveur(s) DNS
+
+Reconnaissance réseau (`traceroute` Linux ou `tracrt` Windows) 
+### Social engineering
+- Forme d'acquisi:on déloyale d'information et d'escroquerie
+- Utilisée pour obtenir d'autrui, un bien, un service ou des informa:ons clefs.
+- Exploite les failles humaines et sociales de la structure cible
+- Utilisant ses connaissances, son charisme, l'imposture ou le culot, le pirate abuse de la confiance, de l'ignorance ou de la crédulité des personnes possédant ce qu'il tente d'obtenir.
+
 ## chapitre 5 - Scanning et énumération
 ## chapitre 6 - Intrusions de systèmes
 ## chapitre 7 - Spams
