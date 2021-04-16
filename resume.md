@@ -5,6 +5,22 @@ phreaking = ancien type de piratage (sur rsx téléphonique)
 
 
 ## chapitre 2 - Introduction
+Conséquences de la sécurité (perte) :
+- financière
+- réputation
+- image de marque
+- avantage compétitif
+- temps
+Exemple :
+- Perte de données
+- Fuite de données
+
+Risques :
+- Cyber attacks
+- Activités criminel
+- Degâts naturels
+- Terrorisme
+
 ## chapitre 3 - Insecurité des systèmes
 une **menace** peut exploiter une **vulnerabilité** en causant des **dommages** ce qui crée un **incident** il faut donc étudier et surveiller les **vulnérabilités**
 ### Types de menaces
